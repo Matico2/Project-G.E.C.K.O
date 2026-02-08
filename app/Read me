@@ -1,0 +1,64 @@
+# ☢️ PROJECT G.E.C.K.O. 🦎
+### Genetic Evaluation & Cataloging of Known Organisms
+**[PROPRIEDADE DA VAULT-TEC INDUSTRIES - ACESSO RESTRITO]**
+
+> *"A reconstrução do mundo começa com o conhecimento da sua nova natureza."* — Divisão de Pesquisa da Vault-Tec.
+
+---
+
+### 💾 Visão Geral (Terminal de Campo)
+O **Project G.E.C.K.O.** é um simulador de terminal de campo de alta fidelidade, desenvolvido para pesquisadores de biologia pós-nuclear. Este projeto serve como um showcase técnico de desenvolvimento Android Nativo, implementando uma arquitetura "offline-first" robusta o suficiente para sobreviver às condições mais extremas do Wasteland.
+
+---
+
+### 🛠️ Especificações Técnicas (Dados do Holodisk)
+
+| Módulo | Tecnologia | Objetivo |
+| :--- | :--- | :--- |
+| **Linguagem** | Kotlin + Coroutines/Flow | Reatividade assíncrona e fluxos de dados de alta eficiência. |
+| **Arquitetura** | Clean Architecture (MVVM) | Separação de sistemas para máxima manutenibilidade. |
+| **Interface** | Jetpack Compose (M3) | UI imersiva em "Verde Fósforo" com tipografia monoespaçada. |
+| **Injeção de Lógica** | Hilt (Dagger) | Gerenciamento centralizado de dependências. |
+| **Comunicação de Rádio** | Retrofit + OkHttp | Consumo seguro de inteligência via APIs REST. |
+| **Base de Dados** | Room Database | Persistência local de espécimes (Single Source of Truth). |
+| **Logística** | Version Catalog | Gerenciamento unificado de bibliotecas via `libs.versions.toml`. |
+
+---
+
+### 🚀 Diário de Implementação (Diretrizes de Missão)
+
+#### 🪖 Missão 01: O Alicerce (Camada de Domínio)
+*Objetivo: Estabelecer as regras de negócio puras, isoladas de interferências externas.*
+- **[LOG 1.1]** Centralização de dependências com Gradle Version Catalog.
+- **[LOG 1.2]** Definição de Modelos de Domínio imutáveis: `Specimen`, `Mutation` e `Encounter`.
+- **[LOG 1.3]** Implementação de Casos de Uso (Use Cases) para análise e filtragem de dados biológicos.
+
+#### ⚡ Missão 02: Fontes de Energia (Camada de Dados)
+*Objetivo: Criar um sistema de armazenamento à prova de radiação e falhas de sinal.*
+- **[LOG 2.1]** Configuração do `Room` para cache persistente e funcionamento offline.
+- **[LOG 2.2]** Setup do `Retrofit` para sincronização de dados com servidores centrais da Vault-Tec.
+- **[LOG 2.3]** Implementação do Padrão Repository com Mappers para blindagem da lógica de negócio.
+
+#### 📟 Missão 03: Interface Pip-Boy (Camada de UI)
+*Objetivo: Construir uma interface intuitiva e performática para o usuário final.*
+- **[LOG 3.1]** Criação do Custom Theme: Paleta Verde Fósforo (#18FF62) e componentes Material3.
+- **[LOG 3.2]** Desenvolvimento de componentes modulares: `SpecimenCard`, `RadMeter` e `VaultButton`.
+- **[LOG 3.3]** Gerenciamento de estado reativo com `StateFlow` e `collectAsStateWithLifecycle`.
+
+#### 🛡️ Missão 04: Protocolos de Segurança (Testes e Qualidade)
+*Objetivo: Garantir que o sistema permaneça operacional sob estresse.*
+- **[LOG 4.1]** Testes Unitários com `MockK` e `JUnit5` para lógica de missão crítica.
+- **[LOG 4.2]** Verificação de UI com Compose Testing Library.
+- **[LOG 4.3]** Análise estática via `Detekt` para manter a integridade do código-fonte.
+
+---
+
+### 📡 Instruções de Acesso ao Terminal
+1. **Inicie o Uplink:** `git clone https://github.com/seu-usuario/project-gecko.git`
+2. **Boot do Sistema:** Abra no Android Studio (versão Ladybug ou superior).
+3. **Sincronização:** Permita que o Gradle baixe os holodisks necessários.
+4. **Deploy:** Execute no hardware alvo ou emulador aprovado pela Vault-Tec.
+
+---
+*"Céus Seguros, Futuro Melhor."*
+**[VAULT-TEC INDUSTRIES - 2077]**
